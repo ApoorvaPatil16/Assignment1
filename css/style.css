@@ -1,0 +1,195 @@
+body{
+  width: 95%;
+  background-image:url("../img/bg2.jpg");
+  background-color: #cccccc;
+}
+.container_12{
+
+  background-color: ;
+  font-size: 20px;
+  letter-spacing: 3px;
+  letter-spacing: 1px;
+}
+
+
+
+header{
+
+  width: 95%%;
+  height: 300px;
+  font-family:  cursive;
+  background-color: ;
+}
+header h1{
+  margin-top: 130px;
+  text-align: center;
+ width: auto;
+ font-size: 80px;
+ color:black;
+ text-shadow: 4px 8px 8px #666;
+}
+nav{
+
+  padding-top: 40px;
+  width: auto;
+}
+nav li{
+  padding-left: 150px;
+ display: inline;
+
+ }
+
+ nav li a{
+
+   font-size: 25px;
+   text-decoration: none;
+   color: purple ;
+   text-shadow: 1px 2px 2px #666;
+   border: 1px solid #00868B;
+   border-spacing: 5px;
+
+ }
+
+.sub{
+
+  font-family: cursive;
+
+  color: purple;
+  text-shadow:0px 0px 1px black;
+
+}
+.sub h3{
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+}
+.sub-header{
+  text-align: center;
+  height: 75PX;
+  background-color:;
+border: 3px solid grey;
+
+color: grey;
+text-shadow: 1px 2px 2px #666;
+}
+
+.sub-header h1{
+  margin-top: 20px;
+  margin-left: 25px;
+
+}
+
+.hero-unit h2{
+  margin-top: 50px;
+  margin-bottom: 40px;
+  text-align: center;
+  color:purple;
+  font-family: cursive;
+
+}
+.hero-unit-img img{
+  margin-left: 140px;
+
+}
+
+
+
+.primary{
+  background-color: ;
+  width: auto;
+  height: auto;
+
+}
+section{
+  padding: 35px;
+}
+section h4{
+  margin-top: 10px;
+  color:#7D1B7E;
+}
+section div img{
+
+
+      width:230px;
+    height:150px;
+
+}
+
+.hero-unit{
+  margin: auto;
+  background-color: ;
+
+
+}
+
+.article{
+  margin-top: 20px;
+  border-top: 3px solid grey;
+}
+.article img{
+
+  float: left;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+}
+
+
+.content{
+  float: right;
+  width:700px;
+  margin-left: auto;
+  margin-top: 30px;
+  margin-right: 20px;
+  font-family: cursive;
+}
+
+.more{
+  float:right;
+}
+
+.statistics {
+border-top: 3px solid grey;
+  float:right;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+  border-top: 3px solid grey;
+
+}
+
+
+.stats{
+  float:left;
+  width:700px;
+  margin-right: 20px;
+  margin-left: 20px;
+  margin-top: 30px;
+
+  margin-top: 30px;
+  font-family: cursive;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+
+.view-more{
+  float:left;
+}
+
+.footer{
+  border-top: 3px solid grey;
+  background-color: #aaaaaa;
+  float: left;
+  width: 100%;
+  margin-top: 50px;
+  margin-right: 20px;
+}
+.links img{
+  width:40px;
+  height: 40px;
+}
+
+.footer_main{
+  width:auto;
+  margin-right: 30px;
+}
