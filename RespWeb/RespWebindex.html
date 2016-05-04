@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+
+		<!-- Website Title & Description for Search Engine purposes -->
+		<title></title>
+		<meta name="description" content="">
+
+		<!-- Mobile viewport optimized -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Bootstrap CSS -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
+
+		<!-- Custom CSS -->
+		<link href="includes/css/styles.css" rel="stylesheet">
+
+		<!-- Include Modernizr in the head, before any other Javascript -->
+		<script src="includes/js/modernizr-2.6.2.min.js"></script>
+
+	</head>
+
+
+	<body>
+
+<div class="container" id="main">
+<div class="navbar navbar-fixed-top">
+
+	<div class="container">
+		<button class="navbar-toggle" data-target=".navbar-responsive-collapse" data-toggle="collapse" type="button">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</button>
+
+		<a class="navbar-brand" href="/"> <img src="images/eventLogo.jpg" alt="logo"> </a>
+
+		<div class="nav-collapse collapse navbar-responsive-collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="RespWebindex.html">HOME</a></li>
+				<li><a href="#">SERVICES</a></li>
+				<li><a href="RespWebportfolio.html">PORTFOLIO</a></li>
+				<li><a href="#">ABOUT US</a></li>
+			</ul>
+
+		<form class="navbar-form pull-left">
+			<input type="text" class="form-conrol" placeholder="Search this site...">
+			<button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+
+		</form><!--end navbar-form-->
+
+		<ul class="nav navbar-nav pull-right">
+			<li class="dropdown">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-user"></span> My Account <strong class="caret"></strong></a>
+				<ul class="dropdown-menu">
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-cog"></span>Settings </a>
+					</li>
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-user"></span>Update Profile </a>
+					</li>
+					<li class="divider"></li>
+					<li>
+						<a href="#"><span class="glyphicon glyphicon-off"></span> Logout </a>
+					</li>
+				</ul><!--end dropdown-menu-->
+			</li>
+		</ul><!--end nav pull-right-->
+	</ul><!--end nav-->
+</div><!--end navbar-collapse-->
+  </div> <!--end container-->
+
+</div><!--end navbar-->
+
+
+
+<div class="carousel slide" id="myCarousel">
+
+	<!--Indicators-->
+	<ol class="carousel-indicators">
+		<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+		<li data-slide-to="1" data-target="#myCarousel"></li>
+		<li data-slide-to="2" data-target="#myCarousel"></li>
+	</ol> <!--end carousel-indicators-->
+
+	<!--Wrapper for Carousel-->
+	<div class="carousel-inner">
+		<div class="item active" id="slide1">
+			<div class="carousel-caption">
+				<h1>The Grand Weddings!</h1>
+			</div> <!--end carousel-caption-->
+		</div> <!--end item slide1-->
+
+		<div class="item " id="slide2">
+			<div class="carousel-caption">
+				<h1>The Grand Weddings!</h1>
+			</div> <!--end carousel-caption-->
+		</div> <!--end item slide2-->
+
+		<div class="item" id="slide3">
+			<div class="carousel-caption">
+				<h1>Birthdays!!!</h1>
+			</div> <!--end carousel-caption-->
+		</div> <!--end item slide1-->
+
+
+
+	</div> <!--end carousel-inner-->
+
+			<!--Controls-->
+				<a class="left carousel-control" data-slide="prev" href="#myCarousel"><span class="icon-prev"></span></a>
+				<a class="right carousel-control" data-slide="next" href="#myCarousel"><span class="icon-next"></span></a>
+
+
+</div> <!--end myCarousel-->
+
+<div class="row" id="bigCallout">
+	<div class="col-12">
+
+		<div class="alert alert-success alert-block fade in" id="successAlert">
+			<button type="button" class="close" data-dismiss="alert">&times;</button>
+
+			<h4>Success!</h4>
+			<p>You just made this element display by using jQuery. Click the "x" in the top right corner to close this bad boy.</p>
+		</div><!-- end alert -->
+
+		<!--Visible only on small screens-->
+		<div class="well well-small visible-sm">
+			<a href="" class="btn btn-large btn-block btn-default"><span class="glyphicon glyphicon-phone"></span>Give us a call</a>
+
+		</div><!--end well-small-->
+
+		<div class="well">
+			<div class="page-header">
+				<h1>Welcome! <small>to the world of events.</small></h1>
+			</div><!--end page-header-->
+			<p class="lead">We have an extensive team of fellow coordinators that accompany us for each wedding depending upon the scale and requirements of each event. Weddings bring us sheer joy and we can’t wait to plan yours.</p>
+
+			<a href="" class="btn btn-large btn-primary" id="alertMe">Plan an event</a>
+			<a href="" class="btn btn-large btn-link">click here!</a>
+		</div> <!--end well-->
+	</div><!--end col-12-->
+</div> <!-- end bigCallout-->
+
+<div class="row" id="featuresHeading">
+	<div class="col-12">
+		<h2>More Features</h2>
+		<p class="lead"></p>
+	</div><!--end col-12-->
+</div><!--end featuresHeading-->
+
+<div class="row" id="features">
+	<div class="col-sm-4" feature>
+		<div class="panel">
+			<div class="panel-heading">
+				<h3 class="panel-title">Birthday</h3>
+			</div><!--end panel-heading-->
+			<img src="images/birthday.jpg" alt="html5" class="img-circle">
+			<p>
+Celebrate your birthday with ideas and will enhance it by the best team's best creativity and skills.Any themes you want, or you want us to do something very new, unique themes or idea, let us help you with that!
+			</p>
+		</div><!--end panel-->
+	</div><!--end feature-->
+
+	<div class="col-sm-4" feature>
+		<div class="panel">
+			<div class="panel-heading">
+				<h3 class="panel-title">Wedding ceremony</h3>
+			</div><!--end panel-heading-->
+			<img src="images/wed15.jpg" alt="html5" class="img-circle">
+			<p>
+				Be it any religion, wedding is when two lives promise to be together. Let us make it an outstanding and amazing moment of your lives.
+			</p>
+		</div><!--end panel-->
+	</div><!--end feature-->
+
+	<div class="col-sm-4" feature>
+		<div class="panel">
+			<div class="panel-heading">
+				<h3 class="panel-title">The theme party</h3>
+			</div><!--end panel-heading-->
+			<img src="images/theme1.jpg" alt="html5" class="img-circle">
+			<p>
+				Ready for the theme party?!! Want to make it ultimately different and fun filled? You are at the right place! Let us help you with that.
+			</p>
+		</div><!--end panel-->
+	</div><!--end feature-->
+</div><!--end #features-->
+
+<div class="row"  id="moreInfo">
+	<div class="col-sm-6">
+		<h3>Locate us at:</h3>
+		<div class="tabbable">
+			<ul class="nav nav-tabs">
+				<li class="active"> <a href="#tab1" data-toggle="tab"> Location </a></li>
+				<li><a href="#tab2" data-toggle="tab">More Info</a></li>
+			</ul>
+			<div class="tab-content">
+				<div class="tab-pane active" id="tab1">
+					 <h4><span class="glyphicon glyphicon-map-marker"></span> Our location</h4>
+
+					 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3888.8840338257296!2d77.60675631435318!3d12.915174219609453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae14fd96c1c9f3%3A0x4c6ec2ebd1691a3a!2sDivya+Vithika+Wedding+Planners!5e0!3m2!1sen!2sin!4v1462253240872" width="100%" height="200" frameborder="0" style="border:0" allowfullscreen></iframe>
+					 <p>
+						 <h4>Address:</h4>
+
+Divya Vithika Wedding Planners, 888 5th Cross, 15th Main, BTM Layout 2nd Stage, Bangalore, Karnataka, 560076, India
+					 </p>
+
+					 <p>
+						 We believe that entertaining is an art. Being able to visit a site and recognize the challenges takes years of experience as does developing good working relationships with a wide range of vendors. We want you to enjoy the planning process as much as the big day. So lessen your stress by letting us plan your complete wedding or by giving us partial planning of the services you need help with.
+					 </p>
+
+
+				</div> <!--end tab-pane #tab1-->
+
+				<div class="tab-pane" id="tab2">
+					<h4>Tips and Tricks<small> Our work and some tips..! </small></h4>
+					<img src="images/thumbnail1.jpg" alt="image" class="thumbnail pull-left">
+					<p>
+							Our team. We have an extensive team of fellow coordinators that accompany us for each wedding depending upon the scale and requirements of each event. Weddings bring us sheer joy and we can’t wait to plan yours.
+					</p>
+
+					<p>
+							While we have handled many high profile and NRI weddings, we equally enjoy planning smaller scale creative weddings. We have experience across a wide range of backgrounds and budgets. We are familiar with the customs for most castes and religions.
+
+Fun fact: We first met in 1998 when Divya was the reigning Miss India and was passing her crown to Vithika, the new Miss India. We remained friends and in 2009 brought together our varied experiences to found Divya Vithika Wedding Planners.
+					</p>
+
+					<hr>
+
+
+					<a href="#myModal" role="button" class="btn btn-warning" data-toggle="modal"><span class="glyphicon glyphicon-hand-up"></span> Subscribe! </a>
+
+
+					<div class="modal fade" id="myModal">
+						<div class="container" id="modalView">
+						<div class="modal-dialogue">
+
+							<div class="modal-content">
+								<div class="modal-header">
+									<button class="close" data-dismiss="modal">&times;</button>
+
+									<h4 class="modal-title">Subscribe!</h4>
+								</div><!--end modal-header-->
+								<div class="modal-body">
+									<h4> Subscribe for the best idea and tips </h4>
+
+									<form class="form-horizontal">
+					<div class="form-group">
+						<label class="col-lg-2 control-label" for="inputName">Name</label>
+						<div class="col-lg-10">
+							<input class="form-control" id="inputName" placeholder="Name" type="text">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-lg-2 control-label" for="inputEmail">Email</label>
+						<div class="col-lg-10">
+							<input class="form-control" id="inputEmail" placeholder="Email" type="email">
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label class="col-lg-2 control-label" for="inputMessage">Message</label>
+						<div class="col-lg-10">
+							<textarea class="form-control" id="inputMessage" placeholder="Message" rows="3"></textarea>
+							<button class="btn btn-success pull-right" type="submit">Subsribe</button>
+						</div>
+					</div>
+				</form>
+								</div><!--end modal-body-->
+
+								<div class="modal-footer">
+				<button class="btn btn-default" data-dismiss="modal" type="button">Close</button> <button class="btn btn-primary" type="button">Save changes</button>
+			</div><!-- end modal-footer -->
+							</div><!--end modal-content-->
+						</div><!--end modal-dialogue-->
+					</div><!--end myModal-->
+				</div><!--end modalView container-->
+				</div><!--end tab-pane #tab2-->
+		</div><!--end tab-content-->
+	</div><!--tabbable-->
+	</div><!--end col-sm-6-->
+
+	<div class="col-sm-6">
+		<h3>The services we provide</h3>
+		<p>
+			We believe that entertaining is an art. Being able to visit a site and recognize the challenges takes years of experience as does developing good working relationships with a wide range of vendors. We want you to enjoy the planning process as much as the big day. So lessen your stress by letting us plan your complete wedding or by giving us partial planning of the services you need help with.
+		</p>
+
+		<h4>Here we go...!</h4>
+
+		<div class="list-group">
+			<a href="#" class="list-group-item">
+				<h4 class="list-group-item-heading">Decor and Themes</h4>
+				<p class="list-group-item-text">
+					Conceptualize, create and coordinate themes
+Floral décor and color schemes
+Stage design and decoration
+State of the art sound, AV and lighting systems
+Seating arrangements
+				</p>
+			</a>
+
+				<a href="#" class="list-group-item">
+			<h4 class="list-group-item-heading">Photography and Videography</h4>
+			<p class="list-group-item-text">
+				Finding the right photographer and videographer
+Managing times lines and schedules
+			</p>
+		</a>
+
+	<a href="#" class="list-group-item">
+		<h4 class="list-group-item-heading">Cuisine and Catering</h4>
+		<p class="list-group-item-text">
+			Finding and managing a good catering company
+Assistance with menu planning
+Creating signature drinks
+		</p>
+	</a>
+		</div><!--end list-group-->
+
+		<h5>Planning as per convinience</h5>
+		<p>
+			With our experience as event planners we have made a list of the main items that are worth the price and where you can save without compromising on aesthetics or quality
+		</p>
+
+	</div><!--end col-sm-6-->
+</div><!--end moreInfo-->
+
+
+
+
+</div> <!--end container main-->
+
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-2">
+				<h6>Copyright &copy; 2016 {name}</h6>
+			</div><!--end col-sm-2-->
+
+			<div class="col-sm-4">
+				<h6>About us</h6>
+				<p>
+					We believe in Simple, Creative & Flexible Design Standards. Headquarters: San Francisco, CA 94107 Phone: (91) 8547 632521 Email: info@canvas.com
+				</p>
+			</div><!--end col-sm-4-->
+
+			<div class="col-sm-2">
+				<h6>Navigation</h6>
+				<ul class="unstyled">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Blog</a></li>
+					<li><a href="#">Portfolio</a></li>
+					<li><a href="#">About Us</a></li>
+				</ul>
+			</div><!--end col-sm-2-->
+
+			<div class="col-sm-2">
+				<h6>Follow Us</h6>
+				<ul class="unstyled">
+					<li><a href="#">Twitter</a></li>
+					<li><a href="#">Facebook</a></li>
+					<li><a href="#">Google+</a></li>
+				</ul>
+			</div><!--end col-sm-2-->
+
+			<div class="col-sm-2">
+				<h6>Coded with <span class="glyphicon glyphicon-heart">by Apoorva</span></h6>
+			</div><!--end col-sm-2-->
+
+		</div><!--end row-->
+	</div><!--end container-->
+</footer>
+
+	<!-- All Javascript at the bottom of the page for faster page loading -->
+
+	<!-- First try for the online version of jQuery-->
+	<script src="http://code.jquery.com/jquery.js"></script>
+
+	<!-- If no online access, fallback to our hardcoded version of jQuery -->
+	<script>window.jQuery || document.write('<script src="includes/js/jquery-1.8.2.min.js"><\/script>')</script>
+
+	<!-- Bootstrap JS -->
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="includes/js/script.js"></script>
+
+	</body>
+</html>

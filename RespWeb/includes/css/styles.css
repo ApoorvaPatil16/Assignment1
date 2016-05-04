@@ -1,0 +1,201 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+#features{
+  text-align: center;
+}
+
+#features img{
+  margin:0 0 10px;
+}
+
+footer{
+  background: #333;
+  color: #eee;
+  font-size: 11px;
+  padding:20px;
+}
+
+#inputMessage{
+  margin-bottom: 15px;
+}
+
+.col-sm-6{
+  margin-bottom: 20px;
+}
+
+.container #modalView{
+  width: auto;
+  height: auto;
+}
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+body{
+  -webkit-font-smoothing:antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+.well{
+  margin:20px 0;
+}
+.well .page-header h1{
+  margin-top:0;
+}
+
+.well .page-header{
+  margin-top:0;
+}
+
+.panel{
+  height: 385px;
+}
+
+.panel p{
+  margin-top: 10px;
+}
+
+#port .panel{
+  height:auto;
+}
+
+#aboutUs{
+    padding: 20px;
+}
+
+#aboutUs img{
+  float: right;
+  padding:20px;
+}
+
+#moreInfo{
+  padding: 20px;
+}
+
+#moreInfo img{
+  float: left;
+  padding:20px;
+}
+
+ul.unstyled{
+  list-style: none;
+  padding: 0;
+}
+
+.carousel-inner .carousel-caption{
+  font-weight: bold;
+  color:black;
+
+}
+
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+.navbar-brand{
+  padding: 13px 20px;
+}
+
+a.navbar-brand{
+  margin: 0;
+  padding: 0;
+}
+
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+#myCarousel{
+  margin-top: 20px;
+}
+
+#myCarousel .item { height: 400px;}
+
+#slide1 {
+  background: url('../../images/01_iws_large.jpg') top center no-repeat;
+}
+
+#slide2 {
+  background: url('../../images/02_image_large.jpg') top center no-repeat;
+}
+
+#slide3 {
+  background: url('../../images/03_image_large.jpg') top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+.alert{
+  margin-top: 20px;
+  display:none;
+}
+
+.tabbable img.thumbnail{
+  margin: 10px;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+
+
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+  #myCarousel .item { height: 310px;}
+
+  #slide1 {
+    background: url('../../images/01_iws_medium.jpg') top center no-repeat;
+  }
+
+  #slide2 {
+    background: url('../../images/02_image_medium.jpg') top center no-repeat;
+  }
+
+  #slide3 {
+    background: url('../../images/03_image_medium.jpg') top center no-repeat;
+  }
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+
+  #myCarousel .item { height: 500px;}
+
+  #slide1 {
+    background: url('../../images/01_iws_large.jpg') top center no-repeat;
+  }
+
+  #slide2 {
+    background: url('../../images/02_image_large.jpg') top center no-repeat;
+  }
+
+  #slide3 {
+    background: url('../../images/03_image_large.jpg') top center no-repeat;
+  }
+}
